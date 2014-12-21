@@ -3,6 +3,7 @@
 ###Below two examples are given, on which the functions were tested. We can see that the functions work properly:
 
 A
+
      [,1] [,2]
 
 [1,]    2   -9
@@ -32,6 +33,7 @@ invA%*%A
 [2,]    0    1
 
 A%*%invA
+
      [,1] [,2]
 
 [1,]    1    0
