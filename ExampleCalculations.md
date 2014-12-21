@@ -1,10 +1,12 @@
 ## 	Example Calculations
 
-##Below two examples are given, on which the functions were tested. We can see that the functions work properly:
+###Below two examples are given, on which the functions were tested. We can see that the functions work properly:
 
 A
      [,1] [,2]
+
 [1,]    2   -9
+
 [2,]    0    9
 
 cacheMatrix <- makeCacheMatrix(A)
