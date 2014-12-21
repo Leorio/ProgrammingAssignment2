@@ -1,11 +1,11 @@
-## The pair of functions makecachematrix() and cachesolve() 
-## cache the inverse of a matrix.
-## Example of the use: to calculate the inverse of the matrix exampleMatrix, do 
+## The pair of functions makecachematrix() and cachesolve() cache the inverse of a matrix.
+## Instructional example: to calculate the inverse of the matrix exampleMatrix, do 
 ## cacheMatrix <- makeCacheMatrix(exampleMatrix)
 ## invExampleMatrix<-cacheSolve(cacheMatrix)
 
+
 ## makeCacheMatrix requires as input a numerical matrix
-## and gives as output a special "matrix" object
+## and gives as output a special matrix object of the type makeCacheMatrix
 ## that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -24,7 +24,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
 }
 
-## CaceSolve requires as input a 'makeCacheMatrix' and gives as output the inverse.
+## CacheSolve requires as input a 'makeCacheMatrix' and gives as output the inverse.
 ## If the inverse has already been calculated and the matrix has not changed, then
 ## `cacheSolve` retrieves the inverse from the cache.
 
